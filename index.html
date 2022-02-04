@@ -5,12 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-<body onload="game()">
+<body>
     
+    <div id="play-game-cover">
+        <input type="button" value="PLAY GAME">
+    </div>
+    <audio loop hidden src="bgm/WBA Free Track - Torn Flesh.mp3"></audio>
+    
+    <audio src="bgm/select.mp3" hidden></audio>
 
-    <script src="script.js">
+    <img src="img/enemy.gif" alt="" id="enemy">
+    
+    <img src="" alt="" id="playerATK">
 
-    </script>
+    <div id="hud">
+        
+
+        <div class="status">
+            <img src="img/separator.png" alt="" id="separator">
+            <div class="container">
+                <span class="doom-font">
+                    <span class="doom-font" id="health-bar">100%</span> <br>
+                    health
+                </span>
+            </div>
+
+            <img src="img/separator.png" alt="" id="separator">
+            
+
+            <div class="container">
+                <div class="doomGuyBG">
+                    <img src="img/doomFace1.gif" alt="" height="50px" id="doomGuyFace">
+                </div>
+            </div>
+            <img src="img/separator.png" alt="" id="separator">
+        </div>    
+
+        <div id="playerScore">0</div>
+        <div id="enemyScore">0</div>
+
+        <div class="container opt-container">
+            <img src="img/separator.png" alt="" id="separator">
+            <img src="img/rock.png" alt="" class="opt" id="rock">
+            <img src="img/paper.png" alt="" class="opt" id="paper">
+            <img src="img/scissor.png" alt="" class="opt" id="scissors">
+        </div>
+    </div>
+
 </body>
 </html>

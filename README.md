@@ -1,2 +1,3 @@
-# Simple "rock paper scissors" JS CONSOLE game
-It doesn't have any UI yet and lacks a lot of other functionalities, but things are going to get better as I progress through the projects.
+# DOOM inspired rock-paper-scissors game (Odin Project "Homework")
+Title is self explanatory, not much to add to it.
+Also, I'm completely aware that my code is a mess, I'll try to work on these skills.
