@@ -20,7 +20,7 @@ rpsOpt.forEach(e => e.addEventListener('click', round))
 function round(e) {
 
     const computerSelection = computerPlay();
-    const playerSelection = e.path[0].getAttribute('id');
+    const playerSelection = this.id;
     
 
     if (playerSelection == "rock" && computerSelection == 1){
